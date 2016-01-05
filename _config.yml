@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Pero... ¿Por qué?
+email: contacto@peroporqué.com
+description: > # this means to ignore newlines until "baseurl:"
+  Una traducción casi literal de waitbutwhy.com. Porque los lectores 
+  hispanohablantes también nos lo merecemos ¿No lo creen?
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://peroporqué.com" # the base hostname & protocol for your site
+twitter_username: jsaravia
+github_username:  jhoon
+timezone: America/Lima
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title.html
+paginate_path: "posts/:num" 
